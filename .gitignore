@@ -1,0 +1,9 @@
+.idea
+.gradle
+build
+classes
+out
+.DS_Store
+node_modules
+application-test.yml
+*.iml

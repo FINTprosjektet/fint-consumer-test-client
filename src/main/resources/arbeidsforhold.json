@@ -1,0 +1,66 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "systemId": {
+          "identifikatorverdi": "hfk.no:123:2"
+        },
+        "stillingsnummer": "2",
+        "aktiv": true,
+        "arslonn": 450000,
+        "stillingstittel": "Lærer",
+        "ansettelsesprosent": 100,
+        "lonnsprosent": 100,
+        "hovedstilling": false,
+        "gyldighetsperiode": {
+          "start": 1462053600000
+        },
+        "kontaktinformasjon": {},
+        "_links": {
+          "personalressurs": {
+            "href": "https://api.felleskomponent.no/administrasjon/personal/personalressurs/ansattnummer/123"
+          },
+          "organisasjon": {
+            "href": "https://api.felleskomponent.no/administrasjon/organisasjon/organisasjonselement/organisasjonskode/234"
+          },
+          "self": {
+            "href": "https://api.felleskomponent.no/administrasjon/personal/arbeidsforhold/systemId"
+          }
+        }
+      },
+      {
+        "systemId": {
+          "identifikatorverdi": "hfk.no:234:1"
+        },
+        "stillingsnummer": "1",
+        "aktiv": true,
+        "arslonn": 450000,
+        "stillingstittel": "Lærer",
+        "ansettelsesprosent": 100,
+        "lonnsprosent": 100,
+        "hovedstilling": false,
+        "gyldighetsperiode": {
+          "start": 1454281200000
+        },
+        "kontaktinformasjon": {},
+        "_links": {
+          "personalressurs": {
+            "href": "https://api.felleskomponent.no/administrasjon/personal/personalressurs/ansattnummer/234"
+          },
+          "organisasjon": {
+            "href": "https://api.felleskomponent.no/administrasjon/organisasjon/organisasjonselement/organisasjonskode/345"
+          },
+          "self": {
+            "href": "https://api.felleskomponent.no/administrasjon/personal/arbeidsforhold/systemId"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "https://api.felleskomponent.no/administrasjon/personal/arbeidsforhold"
+    }
+  },
+  "total_items": 2
+}
