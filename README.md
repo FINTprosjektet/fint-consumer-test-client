@@ -9,12 +9,12 @@ This will connect to the service running on api.felleskomponent.no.
 
 **RestTemplate**
 ```java
-ResponseEntity<Resources<Arbeidsforhold>> response = restTemplate.exchange(URL_ARBEIDSFORHOLD, HttpMethod.GET, new HttpEntity<>(headers), new ParameterizedTypeReference<Resources<Arbeidsforhold>>() {});
+restTemplate.exchange(URL_ARBEIDSFORHOLD, HttpMethod.GET, new HttpEntity<>(headers), new ParameterizedTypeReference<Resources<Arbeidsforhold>>() {});
 ```
 
 **ObjectMapper**
 ```java
-Resources<Arbeidsforhold> resources = objectMapper.readValue(content, new TypeReference<Resources<Arbeidsforhold>>() {});
+objectMapper.readValue(content, new TypeReference<Resources<Arbeidsforhold>>() {});
 ```
 
 ## References
