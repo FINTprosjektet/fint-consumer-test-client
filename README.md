@@ -7,6 +7,8 @@ This will connect to the service running on api.felleskomponent.no.
 
 ## Examples
 
+Add `@EnableHypermediaSupport(type = EnableHypermediaSupport.HypermediaType.HAL)` to the Application class.  
+
 **RestTemplate**
 ```java
 restTemplate.exchange(URL_ARBEIDSFORHOLD, HttpMethod.GET, new HttpEntity<>(headers), new ParameterizedTypeReference<Resources<Arbeidsforhold>>() {});
