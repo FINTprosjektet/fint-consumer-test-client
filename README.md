@@ -1,6 +1,6 @@
 # FINT consumer test client
 
-Test client that reads the response from the consumer API.  
+Test client that reads the converts the response from the consumer API to objects.  
 
 To run the integration test, create the `application-test.yml` file and include the `bearer-token` property. 
 This will connect to the service running on api.felleskomponent.no.  
