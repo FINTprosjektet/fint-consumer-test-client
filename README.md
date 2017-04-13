@@ -6,4 +6,4 @@ To run the integration test, create the `application-test.yml` file and include 
 This will connect to the service running on api.felleskomponent.no.  
 
 ## References
-- https://www.javacodegeeks.com/2014/01/consuming-spring-hateoas-rest-service-using-spring-resttemplate-and-super-type-tokens.html
+- [Consuming Spring-hateoas Rest service](https://www.javacodegeeks.com/2014/01/consuming-spring-hateoas-rest-service-using-spring-resttemplate-and-super-type-tokens.html)
